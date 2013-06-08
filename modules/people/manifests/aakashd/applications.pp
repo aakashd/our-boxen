@@ -6,4 +6,6 @@ class people::aakashd::applications {
   # include calibre
   # include libreoffice
   include transmission
+  # include evernote
+  include limechat
 }
