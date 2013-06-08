@@ -71,7 +71,7 @@ node default {
   include vlc
   include adium
   include adobe_reader
-  include textmate
+  include textmate::textmate2::release
   include skype
   
   # dev tools
