@@ -13,7 +13,7 @@ end
 # Includes many of our custom types and providers, as well as global
 # config. Required.
 
-github "boxen", "2.1.0"
+github "boxen", "2.3.2"
 
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
@@ -29,9 +29,11 @@ github "nodejs",     "2.2.0"
 github "repository", "2.0.2"
 github "ruby",       "4.1.0"
 github "stdlib",     "4.0.2", :repo => "puppetlabs/puppetlabs-stdlib"
+github "sysctl",     "1.0.0"
 github "sudo",       "1.0.0"
 github "osx",        "1.3.0"
 github "zsh",        "1.0.0"
+github "java",       "1.1.1"
 
 # OSX configuration
 github "property_list_key", "0.1.0"
@@ -50,6 +52,15 @@ github "adium", "1.1.1"
 github "adobe_reader", "1.0.1"
 github "textmate", "1.1.0"
 github "skype", "1.0.2"
+github "calibre", "0.0.3", :repo => "agilecoders/puppet-calibre"
+github "evernote", "1.0.1", :repo => "jasonamyers/puppet-evernote"
+github "limechat", "1.1.0", :repo => "dieterdemeyer/puppet-limechat"
+github "libreoffice", "1.0.0", :repo => "jasonamyers/puppet-libreoffice"
+github "transmission", "1.0.0"
+
+# DB
+github "mysql", "1.1.1"
+github "postgresql", "1.0.1"
 
 # dev tools
 github "iterm2", "1.0.2"
@@ -58,6 +69,10 @@ github "gitx", "1.2.0"
 github "rubymine", "1.0.2", :repo => "aakashd/puppet-rubymine"
 github "wget", "1.0.0"
 github "screen", "1.0.0"
+github "virtualbox", "1.0.3"
+github "heroku", "2.0.0"
+github "ctags", "1.0.0"
+github "android", "1.0.0"
 
 # utilities
 github "sizeup", "1.0.0"

@@ -3,4 +3,7 @@ class people::aakashd::applications {
   include flux
   include mou
   include rubymine
+  # include calibre
+  # include libreoffice
+  include transmission
 }

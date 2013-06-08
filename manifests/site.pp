@@ -56,6 +56,7 @@ node default {
   include nginx
   include ruby
   include zsh
+  include java
 
   # default ruby versions
   include ruby::1_9_2
@@ -80,6 +81,17 @@ node default {
   include gitx
   include wget
   include screen
+  include virtualbox
+  include heroku
+  include ctags
+  
+  heroku::plugin { 'accounts':
+    source => 'ddollar/heroku-accounts'
+  }
+  
+  # DB
+  include mysql
+  include postgresql
   
   # utilities
   include sizeup
