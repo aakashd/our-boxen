@@ -3,7 +3,7 @@ class people::aakashd {
   notify { 'class people::aakashd declared': }
   
   include people::aakashd::applications
-  # include people::aakashd::dev_tools
+  include people::aakashd::dev_tools
   
   # dock customization
   include osx::dock::autohide
