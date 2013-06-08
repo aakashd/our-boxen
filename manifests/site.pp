@@ -61,6 +61,28 @@ node default {
   include ruby::1_9_2
   include ruby::1_9_3
   include ruby::2_0_0
+  
+  # default applications
+  include chrome
+  include alfred
+  include firefox
+  include dropbox
+  include googledrive
+  include vlc
+  include adium
+  include adobe_reader
+  include textmate
+  include skype
+  
+  # dev tools
+  include iterm2::stable
+  include vagrant
+  include gitx
+  include wget
+  include screen
+  
+  # utilities
+  include sizeup
 
   # common, useful packages
   package {

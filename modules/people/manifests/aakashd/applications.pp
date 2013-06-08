@@ -1,3 +1,6 @@
 class people::aakashd::applications {
-  include chrome
+  include shortcat
+  include flux
+  include mou
+  include rubymine
 }

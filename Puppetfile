@@ -32,7 +32,32 @@ github "stdlib",     "4.0.2", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",       "1.0.0"
 github "osx",        "1.3.0"
 github "zsh",        "1.0.0"
+
+# applications
 github "chrome", "1.1.0" 
+github "alfred", "1.1.0"
+github "shortcat", "1.0.2"
+github "firefox", "1.0.6"
+github "dropbox", "1.1.0"
+github "googledrive", "1.0.2"
+github "vlc", "1.0.1"
+github "flux", "0.0.1"
+github "mou", "1.0.0"
+github "adium", "1.1.1"
+github "adobe_reader", "1.0.1"
+github "textmate", "1.1.0"
+github "skype", "1.0.2"
+
+# dev tools
+github "iterm2", "1.0.2"
+github "vagrant", "2.0.7"
+github "gitx", "1.2.0"
+github "rubymine", "1.0.2", :repo => "aakashd/puppet-rubymine"
+github "wget", "1.0.0"
+github "screen", "1.0.0"
+
+# utilities
+github "sizeup", "1.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
