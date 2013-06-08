@@ -33,6 +33,9 @@ github "sudo",       "1.0.0"
 github "osx",        "1.3.0"
 github "zsh",        "1.0.0"
 
+# OSX configuration
+github "property_list_key", "0.1.0"
+
 # applications
 github "chrome", "1.1.0" 
 github "alfred", "1.1.0"
